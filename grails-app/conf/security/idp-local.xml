@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" entityID="https://cas.byu.edu/cas/idp/metadata">
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+        <Extensions>
+            <shibmd:Scope regexp="false">byu.edu</shibmd:Scope>
+            
+        </Extensions>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDDTCCAfWgAwIBAgIUQ0qeX9iUVKaO95IMN7lcRX6uUKAwDQYJKoZIhvcNAQEL
+BQAwFjEUMBIGA1UEAwwLY2FzLmJ5dS5lZHUwHhcNMjAxMDMxMDY1MjEyWhcNNDAx
+MDMxMDY1MjEyWjAWMRQwEgYDVQQDDAtjYXMuYnl1LmVkdTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAJTamCcWO+7tHOLSyEnsj1qw8DuD46Y/UwsNFElF
+HuVAM32Bx4VMA0HoiI0r112sW1ecQSMObY4ZwPFK4MhRbg/ZJ8WlCzczjYSi2lL8
+SFxRArqPOvxLcm6L6vOnauSoVL3PodISiWpk8XdgIJEoyz0SfQyL6NShBnARBqcJ
+QbKFpUgBTuPSJqJ68/2IyllgOItUH8v2ufc1VNzBs5okihfUmMWtcRxWdlJGjftI
+i6e2WZFiQdfhKR08+1A/QPJYHzlkbSFNwl6OaMlPpxsvC/ffx6rinjTPV9iTiDl0
+GUXYTGGgtamOwK05oA6kD+1gPZZKC6dF0NukYujj8GRyWwkCAwEAAaNTMFEwHQYD
+VR0OBBYEFPKBtxadP5SIzHCZKz2DHTmj/IGAMDAGA1UdEQQpMCeCC2Nhcy5ieXUu
+ZWR1hhhjYXMuYnl1LmVkdS9pZHAvbWV0YWRhdGEwDQYJKoZIhvcNAQELBQADggEB
+AAs/AAMYua6O2GduC6kCrjr2K9wW2Wm704/MOJavQ3qCxTdzuZYqd9W75gwTK/VQ
+q/YV4OuYXSJfsvxGOlBD1MamANA28p02PfVAfZy/ds+lbr8lo6WXN1QlSkutg2d/
+q2XQGyZzCs/ObDcG4Jq7E4La955bWKh0gYFaTqAlzm9HMElVf/SwZVcn3VJJaMz4
+CFZhuIQ7s/jRLhq9k4W4YtsZoTjh6+VjU/Gb4kiso7U132xHMek2tQSV3aRqKPTk
+X2nV5z/+AuOAsrNii89He5zRhT/AGJ2KuDa/MWveGc5GZ6fJHwCurWPpotLIdBbs
+qW5qMu6UzqPQQ2Etb+dd+yk=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDDjCCAfagAwIBAgIVAKUW/lXC05DemtZyHoaxO0c7Lo8wMA0GCSqGSIb3DQEB
+CwUAMBYxFDASBgNVBAMMC2Nhcy5ieXUuZWR1MB4XDTIwMTAzMTA2NTIxM1oXDTQw
+MTAzMTA2NTIxM1owFjEUMBIGA1UEAwwLY2FzLmJ5dS5lZHUwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCm33uz8IRSQm1B+4MNOhzxennqRUiAMYquGl/D
+9xeYUQRmbzDPNh5c/h+MzC+9n7LwlvGgX7Qz2yBypNLy3zL4Aw6n7wmelEj6xNby
+eMP6pR2Y7afL9qZcux/FM69yMzaFaJ0xyQlWNg9PlpZrW9/xr9CdaBme1dhSL0Op
+wKet7RFOTIZSef8KA826MAQx2X7VLs70UDeXH3aWwi7f9hK/r4eHrkICjpeV6GSg
+HYgAYuALSg5+OTUnkKbGPqIIcyTt/myaH5hfkzIy1BkeRIrMzefvOcyIQ3yTwbIa
+ypojLFb4keg8vEEbGfYLCkMnUr0/o+8gODGuwQoov6J/ud8dAgMBAAGjUzBRMB0G
+A1UdDgQWBBQdylJLGvQMUfLvgsCB2RQ/0g1R/jAwBgNVHREEKTAnggtjYXMuYnl1
+LmVkdYYYY2FzLmJ5dS5lZHUvaWRwL21ldGFkYXRhMA0GCSqGSIb3DQEBCwUAA4IB
+AQA1a4mAbTg2DUcbN+EUfK3/dys2xNhtg4jsIXtZXUYwDcoOSdaKNTgJ1kYbHQXT
+Pkf/Y9dYWWCz6UprIQQ/wQ/shujLYexavBH/bm6Jxqqc6cmUVX5qZulCK0ky4jQT
+G7mu4T4Pr3c87Z5s0iyCEM8UN7Ss63svqpcSMfRpDkl8IVZegDhq9dq08FAspuqK
+V6wwrRjT/G5+9v53/SMNOjuRZvP96uQBvkoLR98WvHHPCPcT2bSOk2/wQpGMGcmv
+KkBJsFHrPNsuE5ukNh0xVsJPlUyBd3yPxYcg8PNNPLmZEC07U1HcbYepEs9Oil7M
+p/72Y3kP5aV6x8hCvLqIKO2a</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cas.byu.edu/cas/idp/profile/SAML2/POST/SLO"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cas.byu.edu/cas/idp/profile/SAML2/Redirect/SLO" />
+        <NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cas.byu.edu/cas/idp/profile/SAML2/POST/SSO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://cas.byu.edu/cas/idp/profile/SAML2/POST-SimpleSign/SSO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cas.byu.edu/cas/idp/profile/SAML2/Redirect/SSO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://cas.byu.edu/cas/idp/profile/SAML2/SOAP/ECP"/>
+    </IDPSSODescriptor>
+
+</EntityDescriptor>
